@@ -1,7 +1,6 @@
 {
   "eyebrow": "Client stories",
   "title": "Trusted by businesses across Pakistan",
-  "note": "Sample testimonials — replace with your own",
   "case_label": "Case study",
   "case_title": "How we helped a startup register and cut its tax bill by 30%",
   "case_text": "From incorporation with SECP to FBR registration and a restructured tax plan — we took a new venture compliant in under three weeks and found meaningful, legitimate savings along the way.",
@@ -12,13 +11,13 @@
   "items": [
     {
       "name": "Ahmed Raza",
-      "quote": "KHR took our messy books and FBR backlog and sorted everything within weeks. Genuinely responsive — they pick up the phone.",
-      "role": "Director, Trading SME"
+      "role": "Director, Trading SME",
+      "quote": "KHR took our messy books and FBR backlog and sorted everything within weeks. Genuinely responsive — they pick up the phone."
     },
     {
       "name": "Sana Khan",
-      "quote": "They registered our company and handled the trademark without us chasing a single deadline. Clear pricing from day one.",
-      "role": "Founder, Tech Startup"
+      "role": "Founder, Tech Startup",
+      "quote": "They registered our company and handled the trademark without us chasing a single deadline. Clear pricing from day one."
     }
   ]
 }
