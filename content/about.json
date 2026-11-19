@@ -1,0 +1,34 @@
+{
+  "eyebrow": "About KHR",
+  "title": "A clear strategy for growth — built around your objectives",
+  "intro": "KHR Consultants serves a broad range of clients — from financial services to not-for-profits, manufacturing to service industries. We take a genuine interest in our clients' objectives and give them valuable ideas for increasing operational efficiency.",
+  "mission_label": "Our mission",
+  "mission": "To provide exceptional service to every client — through professional excellence, integrity and long-lasting relationships.",
+  "values": [
+    {
+      "title": "Client first",
+      "text": "Your objective is our objective."
+    },
+    {
+      "title": "Integrity",
+      "text": "What's right for business is right for us."
+    },
+    {
+      "title": "Collaboration",
+      "text": "We assist and work alongside you."
+    },
+    {
+      "title": "Excellence",
+      "text": "Quality results through expertise."
+    }
+  ],
+  "people_label": "Our people",
+  "people_title": "Qualified experts across every discipline you'll need",
+  "people": [
+    "Experienced Financial & Accounting Professionals",
+    "Qualified Internal & External Auditors",
+    "Corporate & Individual Taxation experts",
+    "Corporate Affairs specialists",
+    "Cost & Management Accountants"
+  ]
+}

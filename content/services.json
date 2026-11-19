@@ -1,0 +1,62 @@
+{
+  "eyebrow": "What we do",
+  "title": "Everything your business needs to stay compliant",
+  "intro": "From tax and audit to business advisory and risk management, we cover the full spectrum of corporate, financial and regulatory services — with people who actually pick up the phone.",
+  "items": [
+    {
+      "title": "Tax Planning & Compliance",
+      "description": "Corporate & individual tax — planning, returns, rebates and registrations done right and on time.",
+      "points": [
+        "Tax planning & advisory",
+        "Returns & rebate management",
+        "FBR / SRB / PRA / KPRA registration & compliance"
+      ],
+      "audience": "For SMEs & individuals",
+      "short_title": "Tax Planning & Compliance"
+    },
+    {
+      "title": "Audit & Assurance Services",
+      "description": "Independent audits, risk reviews and financial reporting that satisfy regulators and surface real operational insight.",
+      "points": [
+        "Internal, inventory & cost audit",
+        "Financial statements & bookkeeping",
+        "Code of Corporate Governance compliance"
+      ],
+      "audience": "For companies & NPOs",
+      "short_title": "Audit & Assurance"
+    },
+    {
+      "title": "Business Growth & Transformation Consulting",
+      "description": "Set up, structure and scale your business the right way — from incorporation to outsourced CFO support.",
+      "points": [
+        "Pvt / Public Ltd, partnership (AOP) & trust registration",
+        "Outsourced bookkeeping, payroll & CFO support",
+        "Internal control systems & financial reporting"
+      ],
+      "audience": "For founders & growing businesses",
+      "short_title": "Business Growth Consulting"
+    },
+    {
+      "title": "Strategic Business Advisory",
+      "description": "Stay in good standing with SECP and every regulator while we handle the corporate and strategic groundwork.",
+      "points": [
+        "Annual return filing with SECP & alteration in Articles/MOA",
+        "Trademark, patent & copyright registration",
+        "HR consulting & corporate planning advisory"
+      ],
+      "audience": "For registered companies",
+      "short_title": "Strategic Advisory"
+    },
+    {
+      "title": "Risk Management & Insurance Solutions",
+      "description": "Protect what you've built — risk consulting, Takaful/insurance advisory and employee-welfare compliance.",
+      "points": [
+        "Risk management consulting",
+        "Takaful, investment & insurance advisory",
+        "EOBI & SESSI compliance"
+      ],
+      "audience": "For brands & employers",
+      "short_title": "Risk & Insurance"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "khr-consultants",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "KHR Corporate & Tax Consultants website",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}

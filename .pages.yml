@@ -1,0 +1,224 @@
+# Admin panel settings for Pages CMS (https://app.pagescms.org)
+# Each entry below is one menu item in the admin panel; each field is one box the editor can fill in.
+# Content is saved to content/*.json and pictures to assets/. The site rebuilds automatically after each save.
+
+media:
+  input: assets
+  output: /assets
+  categories: [image]
+
+content:
+  # ---------------------------------------------------------------- GENERAL
+  - name: general
+    label: "1. Contact details, logo & footer"
+    type: file
+    path: content/general.json
+    format: json
+    fields:
+      - { name: logo, label: Logo (top and bottom of the page), type: image }
+      - { name: favicon, label: Small browser-tab icon, type: image }
+      - { name: site_name, label: Company name (next to the logo), type: string }
+      - { name: brand_subtitle, label: Small line under the company name, type: string }
+      - { name: topbar_message, label: Message in the thin bar at the very top, type: string }
+      - { name: book_button, label: Text on the "Book a consultation" buttons, type: string }
+      - { name: phone, label: Main phone / WhatsApp number, type: string, description: "Used for calls, WhatsApp buttons and the contact form. Example: +92-313-8561601" }
+      - { name: mobile, label: Second mobile number, type: string }
+      - { name: email, label: Email address, type: string }
+      - { name: address, label: Office address, type: text }
+      - { name: map_location, label: Location shown on the map, type: string, description: "Type it as you would in Google Maps, e.g. Blue Area Islamabad" }
+      - { name: linkedin, label: LinkedIn page link, type: string }
+      - { name: facebook, label: Facebook page link, type: string }
+      - { name: instagram, label: Instagram page link, type: string }
+      - { name: footer_about, label: Short description in the footer, type: text }
+      - { name: footer_note, label: Small note at the bottom right, type: string }
+      - { name: copyright, label: Copyright line, type: string }
+      - { name: site_full_name, label: Full company name (shown when the site is shared), type: string }
+      - { name: seo_title, label: Browser tab / Google title, type: string }
+      - { name: seo_description, label: Google description, type: text }
+      - { name: share_description, label: Description shown when shared on WhatsApp/Facebook, type: text }
+
+  # ---------------------------------------------------------------- HERO
+  - name: hero
+    label: "2. Top section (headline)"
+    type: file
+    path: content/hero.json
+    format: json
+    fields:
+      - { name: location, label: Small label (location), type: string }
+      - { name: badge, label: Small label (registration), type: string }
+      - { name: title, label: Headline (dark part), type: text }
+      - { name: title_highlight, label: Headline (green part), type: string }
+      - { name: intro, label: Paragraph under the headline, type: text }
+      - { name: second_button, label: Second button text, type: string }
+      - name: stats
+        label: Numbers under the buttons (keep 3)
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{number}{suffix} {label}" }
+        fields:
+          - { name: number, label: Number, type: string }
+          - { name: suffix, label: "Sign after the number (+ or %)", type: string }
+          - { name: label, label: Label, type: string }
+      - { name: card_badge, label: "Consultation box: small label", type: string }
+      - { name: card_title, label: "Consultation box: title", type: string }
+      - { name: card_points, label: "Consultation box: points", type: string, list: true }
+      - { name: card_button, label: "Consultation box: button text", type: string }
+      - { name: card_note, label: "Consultation box: note under the button", type: string }
+      - { name: trust_label, label: "Dark strip: label", type: string }
+      - { name: trust_items, label: "Dark strip: registrations", type: string, list: true }
+
+  # ---------------------------------------------------------------- SERVICES
+  - name: services
+    label: "3. Services"
+    type: file
+    path: content/services.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Small heading, type: string }
+      - { name: title, label: Section title, type: string }
+      - { name: intro, label: Section introduction, type: text }
+      - name: items
+        label: Services
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{title}" }
+        fields:
+          - { name: title, label: Service name, type: string }
+          - { name: description, label: Short description, type: text }
+          - { name: points, label: Bullet points, type: string, list: true }
+          - { name: audience, label: "Who it's for (bottom of the card)", type: string }
+          - { name: short_title, label: Shorter name for the footer (optional), type: string }
+
+  # ---------------------------------------------------------------- ABOUT
+  - name: about
+    label: "4. About us"
+    type: file
+    path: content/about.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Small heading, type: string }
+      - { name: title, label: Section title, type: string }
+      - { name: intro, label: About text, type: text }
+      - { name: mission_label, label: Mission heading, type: string }
+      - { name: mission, label: Mission text, type: text }
+      - name: values
+        label: Values
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{title}" }
+        fields:
+          - { name: title, label: Value, type: string }
+          - { name: text, label: Explanation, type: string }
+      - { name: people_label, label: "Our people: small heading", type: string }
+      - { name: people_title, label: "Our people: title", type: string }
+      - { name: people, label: "Our people: list", type: string, list: true }
+
+  # ---------------------------------------------------------------- WHY
+  - name: why
+    label: "5. Why choose us"
+    type: file
+    path: content/why.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Small heading, type: string }
+      - { name: title, label: Section title, type: string }
+      - { name: intro, label: Section introduction, type: text }
+      - name: items
+        label: Reasons
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{title}" }
+        fields:
+          - { name: title, label: Reason, type: string }
+          - { name: text, label: Explanation, type: text }
+
+  # ---------------------------------------------------------------- INDUSTRIES
+  - name: industries
+    label: "6. Industries we serve"
+    type: file
+    path: content/industries.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Small heading, type: string }
+      - { name: title, label: Section title, type: string }
+      - { name: intro, label: Section introduction, type: text }
+      - { name: items, label: Industries, type: string, list: true }
+
+  # ---------------------------------------------------------------- TESTIMONIALS
+  - name: testimonials
+    label: "7. Client stories & case study"
+    type: file
+    path: content/testimonials.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Small heading, type: string }
+      - { name: title, label: Section title, type: string }
+      - { name: note, label: Small note on the right (leave empty to hide), type: string }
+      - { name: case_label, label: "Case study: label", type: string }
+      - { name: case_title, label: "Case study: title", type: string }
+      - { name: case_text, label: "Case study: text", type: text }
+      - { name: case_stat1_value, label: "Case study: first number", type: string }
+      - { name: case_stat1_label, label: "Case study: first number label", type: string }
+      - { name: case_stat2_value, label: "Case study: second number", type: string }
+      - { name: case_stat2_label, label: "Case study: second number label", type: string }
+      - name: items
+        label: Client reviews
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{name}" }
+        fields:
+          - { name: name, label: Client name, type: string }
+          - { name: role, label: Position and company, type: string }
+          - { name: quote, label: What they said (no quote marks needed), type: text }
+
+  # ---------------------------------------------------------------- INSIGHTS
+  - name: insights
+    label: "8. Articles / insights"
+    type: file
+    path: content/insights.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Small heading, type: string }
+      - { name: title, label: Section title, type: string }
+      - { name: view_all_label, label: '"View all" link text', type: string }
+      - { name: view_all_link, label: '"View all" link address', type: string }
+      - name: items
+        label: Articles
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{title}" }
+        fields:
+          - { name: title, label: Article title, type: string }
+          - { name: tag, label: Category label, type: string }
+          - { name: meta, label: "Date & reading time", type: string }
+          - { name: summary, label: Short summary, type: text }
+          - { name: link, label: Link to the full article, type: string, description: "Leave as #contact if there is no article page yet" }
+
+  # ---------------------------------------------------------------- CONTACT
+  - name: contact
+    label: "9. Contact section & form"
+    type: file
+    path: content/contact.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Small heading, type: string }
+      - { name: title, label: Section title, type: string }
+      - { name: intro, label: Section introduction, type: text }
+      - { name: form_title, label: Form title, type: string }
+      - { name: form_intro, label: Text under the form title, type: string }
+      - { name: form_button, label: Form button text, type: string }
+      - { name: form_note, label: Small privacy note under the button, type: text }
+      - { name: success_title, label: Message after sending (title), type: string }
+      - { name: success_text, label: Message after sending (text), type: text }
+
+  # ---------------------------------------------------------------- CTA
+  - name: cta
+    label: "10. Green banner before the footer"
+    type: file
+    path: content/cta.json
+    format: json
+    fields:
+      - { name: title, label: Banner title, type: string }
+      - { name: text, label: Banner text, type: string }
+      - { name: button, label: Button text, type: string }
+      - { name: whatsapp_button, label: WhatsApp button text, type: string }

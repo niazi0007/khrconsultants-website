@@ -1,0 +1,35 @@
+{
+  "eyebrow": "Why KHR",
+  "title": "Registered, accountable and on your side",
+  "intro": "Every engagement is backed by proper registration, experienced professionals and a commitment to doing things by the book.",
+  "items": [
+    {
+      "title": "Experienced Financial Professionals",
+      "text": "Chartered accountants and tax experts with 12+ years in practice."
+    },
+    {
+      "title": "Transparent Pricing",
+      "text": "Clear, upfront fees agreed before we start — no hidden surprises."
+    },
+    {
+      "title": "Fast Turnaround Time",
+      "text": "Responsive service with clear timelines, every time."
+    },
+    {
+      "title": "Confidential Service",
+      "text": "Your financial data stays strictly between us, always."
+    },
+    {
+      "title": "Personalized Consultation",
+      "text": "Advice tailored to your business, not a one-size-fits-all template."
+    },
+    {
+      "title": "Compliance with FBR & SECP Regulations",
+      "text": "Every engagement follows FBR and SECP rules to the letter."
+    },
+    {
+      "title": "Dedicated Client Support",
+      "text": "A named advisor who picks up the phone when you call."
+    }
+  ]
+}

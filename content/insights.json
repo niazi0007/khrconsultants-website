@@ -1,0 +1,29 @@
+{
+  "eyebrow": "Insights & updates",
+  "title": "Tax & compliance, explained simply",
+  "view_all_label": "View all articles",
+  "view_all_link": "#contact",
+  "items": [
+    {
+      "title": "Tax Updates 2025: what changed for filers in Pakistan",
+      "tag": "Tax",
+      "meta": "Mar 2025 · 5 min read",
+      "summary": "A plain-English rundown of the key FBR changes this year and what they mean for your returns.",
+      "link": "#contact"
+    },
+    {
+      "title": "A freelancer's guide to FBR compliance",
+      "tag": "Compliance",
+      "meta": "Feb 2025 · 7 min read",
+      "summary": "Earning from abroad or locally? Here's how to register, file and stay on the right side of FBR.",
+      "link": "#contact"
+    },
+    {
+      "title": "SECP company registration: a step-by-step guide",
+      "tag": "Registration",
+      "meta": "Jan 2025 · 6 min read",
+      "summary": "Everything you need to incorporate a Pvt Ltd company in Pakistan, from name reservation to filing.",
+      "link": "#contact"
+    }
+  ]
+}

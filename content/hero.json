@@ -1,0 +1,41 @@
+{
+  "location": "Islamabad, Pakistan",
+  "badge": "SECP · FBR Registered",
+  "title": "Empowering Businesses with End-to-End Financial,",
+  "title_highlight": "Advisory & Corporate Solutions.",
+  "intro": "From tax and assurance to business consultancy, insurance, and corporate advisory, KHR Consultants helps businesses navigate challenges, stay compliant, and achieve sustainable growth.",
+  "second_button": "Explore Our Services",
+  "stats": [
+    {
+      "number": "12",
+      "suffix": "+",
+      "label": "Years of practice"
+    },
+    {
+      "number": "500",
+      "suffix": "+",
+      "label": "Clients served"
+    },
+    {
+      "number": "100",
+      "suffix": "%",
+      "label": "Compliance focus"
+    }
+  ],
+  "card_badge": "No obligation",
+  "card_title": "Your free 30-min consultation",
+  "card_points": [
+    "A personalized tax & compliance review",
+    "Clear, upfront pricing — no surprises",
+    "Honest advice from chartered experts"
+  ],
+  "card_button": "Book Your Slot",
+  "card_note": "Typical response within 1 business hour",
+  "trust_label": "Registered, licensed & trusted",
+  "trust_items": [
+    "SECP",
+    "FBR",
+    "SRB · PRA · KPRA",
+    "EOBI · SESSI"
+  ]
+}
